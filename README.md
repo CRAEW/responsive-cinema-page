@@ -7,3 +7,6 @@ The website has to be responsive for the following screen sizes:
 * medium (< 992px)
 * large (< 1200px)
 * extra large (> 1200px)
+
+Responsive wireframe:
+http://framebox.org/AIYvX
