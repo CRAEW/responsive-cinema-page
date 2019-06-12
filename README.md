@@ -2,8 +2,8 @@
 
 The website has to be responsive for the following screen sizes:
 
-extra small (< 576px)
-small (< 768px)
-medium (< 992px)
-large (< 1200px)
-extra large (> 1200px)
+* extra small (< 576px)
+* small (< 768px)
+* medium (< 992px)
+* large (< 1200px)
+* extra large (> 1200px)
