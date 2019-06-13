@@ -1,4 +1,5 @@
 @import url('css/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 /* USED COLORS ->
 BACKGROUND: #011526;
@@ -45,6 +46,8 @@ h1, h2 {
 
 h1 {
   font-size: 2.5em;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: .2em;
 }
 
 h2 {
@@ -80,7 +83,7 @@ img {
 /* HEADER */
 .logo {
   text-align: center;
-  text-shadow: 0 0 15px cyan;
+  text-shadow: 0 0 5px black, 0 0 10px cyan, 0 0 20px cyan;
 }
 
 .logo i {
