@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Het filmhuisje</title>
-  <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/4469be274f.js"></script>
 </head>
@@ -29,87 +28,112 @@
         </div>
 
         <form role="search" class="search-field-wrapper">
-          <label for="search-field">
+          <label for="search-field" class="bshadow">
             <div class="search-field">
               <input type="search" id="search-field" name="q" size="30" placeholder="Zoek een film, event, acteur,...">
-              <button><i class="fas fa-search"></i></button>
+              <i class="fas fa-search"></i>
             </div>
           </label>
         </form>
       </div>
 
       <div class="filter">
-        <h2>Filter</h2>
-        <form>
-          <label for="all-movies"><input type="radio" name="all-movies" value="">Alle films</label>
-          <label for="today-movies"><input type="radio" name="today-movies">Vandaag</label>
-          <label for="expected-movies"><input type="radio">Verwacht</label>
-          <button>Filter</button>
+        <div class="dropdown">
+          <h2>Filter</h2>
+        </div>
+
+        <form class="dropdown-content">
+          <div>
+            <label for="all-movies"><input type="radio" name="movies-filer" id="all-movies">Alle films</label>
+          </div>
+          <div>
+            <label for="today-movies"><input type="radio" name="movies-filer" id="today-movies">Vandaag</label>
+          </div>
+          <div>
+            <label for="expected-movies"><input type="radio" name="movies-filer" id="expected-movies">Verwacht</label>
+          </div>
+          <button class="bshadow">
+            <h2>Filter</h2>
+          </button>
         </form>
       </div>
     </header> <!-- End of HEADER -->
 
     <section class="movies-container">
-      <div class="movie-wrap">
+      <div class="movie-wrap bglow">
         <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+        <div class="movie-info">
+          <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="movie-wrap">
-        <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+      <div class="movie-wrap bglow">
+        <h2>Aladdin</h2>
+        <div class="movie-info">
+          <img src="images/alladin.jpg" alt="Aladdin">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="movie-wrap">
-        <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+      <div class="movie-wrap bglow">
+        <h2>Godzilla: King of the monsters</h2>
+        <div class="movie-info">
+          <img src="images/godzilla-king-of-the-monsters.jpg" alt="Godzilla: King of the monsters">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="movie-wrap">
-        <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+      <div class="movie-wrap bglow">
+        <h2>Pokémon</h2>
+        <div class="movie-info">
+          <img src="images/pokemon-pikachu.jpg" alt="Pokémon">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="movie-wrap">
-        <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+      <div class="movie-wrap bglow">
+        <h2>John Wick 3</h2>
+        <div class="movie-info">
+          <img src="images/john-wick-3.jpeg" alt="John Wick 3">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="movie-wrap">
-        <h2>Avengers Endgame</h2>
-        <img src="images/avengers-endgame.jpg" alt="Avengers Endgame">
-        <ul>
-          <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
-          <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
+      <div class="movie-wrap bglow">
+        <h2>X-men: Dark Phoenix</h2>
+        <div class="movie-info">
+          <img src="images/x-men-dark-phoenix.jpg" alt="X-men: Dark Phoenix">
+          <ul>
+            <li><a href="#"><i class="fas fa-ticket-alt"></i></a></li>
+            <li><a href="#"><i class="fas fa-info-circle"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
       </div>
-    </section> <!-- End of MOVIE-WRAP -->
+
+
+    </section> <!-- End of MOVIES-CONTAINER -->
 
     <footer>
       <h2>Visit us on</h2>
@@ -120,9 +144,6 @@
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </footer>
-
-
-
 
   </div> <!-- End of CONTAINER -->
 
