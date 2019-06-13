@@ -1,5 +1,8 @@
 # responsive-cinema-page
+https://craew.github.io/responsive-cinema-page/
 
+
+<hr>
 The website has to be responsive for the following screen sizes:
 
 * extra small (< 576px)
